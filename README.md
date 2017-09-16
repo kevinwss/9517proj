@@ -5,8 +5,8 @@ python generate_train_data.py --file Trump.mp4 --num 400 --landmark-model shape_
 
 Input:
 
-file is the name of the video file from which you want to create the data set.
-num is the number of train data to be created.
+file is the name of the video file from which you want to create the data set.</br>
+num is the number of train data to be created.</br>
 landmark-model is the facial landmark model that is used to detect the landmarks.
 
 Output:
