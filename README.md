@@ -1,6 +1,6 @@
 # 1.Generate Training Data
 
-~/face2face-demo/
+~/face2face-demo/ \n
 python generate_train_data.py --file Trump.mp4 --num 400 --landmark-model shape_predictor_68_face_landmarks.dat
 
 Input:
@@ -16,8 +16,9 @@ Two folders original and landmarks will be created.
 
 # 2.Train Model
 
+
 1)Move the original and landmarks folder into the pix2pix-tensorflow folder
-~/face2face/
+~/face2face/ \n
 mv face2face-demo/landmarks face2face-demo/original pix2pix-tensorflow/photos
 
 2)Go into the pix2pix-tensorflow folder
@@ -58,10 +59,10 @@ python pix2pix.py \
   
   
 # 3.Export Model
-  
- 
+
+
 1) we need to reduce the trained model so that we can use an image tensor as input:
-~/face2face-demo/
+~/face2face-demo/ \n
 python reduce_model.py --model-input face2face-model --model-output face2face-reduced-model
 
 
