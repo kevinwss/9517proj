@@ -17,7 +17,7 @@ Two folders original and landmarks will be created.
 # 2.Train Model
 
 
-1)Move the original and landmarks folder into the pix2pix-tensorflow folder
+1)Move the original and landmarks folder into the pix2pix-tensorflow folder</br>
 ~/face2face/ </br>
 mv face2face-demo/landmarks face2face-demo/original pix2pix-tensorflow/photos
 
@@ -61,7 +61,7 @@ python pix2pix.py \
 # 3.Export Model
 
 
-1) we need to reduce the trained model so that we can use an image tensor as input:
+1) we need to reduce the trained model so that we can use an image tensor as input:</br>
 
 ~/face2face-demo/ </br>
 python reduce_model.py --model-input face2face-model --model-output face2face-reduced-model
@@ -100,7 +100,7 @@ python run_webcam.py --source 0 --show 0 --landmark-model shape_predictor_68_fac
 
 Input:
 
-source is the device index of the camera (default=0).
-show is an option to either display the normal input (0) or the facial landmark (1) alongside the generated image (default=0).
-landmark-model is the facial landmark model that is used to detect the landmarks.
-tf-model is the frozen model file.
+source is the device index of the camera (default=0).</br>
+show is an option to either display the normal input (0) or the facial landmark (1) alongside the generated image (default=0).</br>
+landmark-model is the facial landmark model that is used to detect the landmarks.</br>
+tf-model is the frozen model file.</br>
