@@ -2,7 +2,7 @@
 
 ~/face2face-demo/ </br>
 
-<font color="#660000">python generate_train_data.py --file Trump.mp4 --num 400 --landmark-model shape_predictor_68_face_landmarks.dat</font>
+<font color="#000066">python generate_train_data.py --file Trump.mp4 --num 400 --landmark-model shape_predictor_68_face_landmarks.dat</font>
 
 Input:
 
